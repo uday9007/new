@@ -1,0 +1,139 @@
+{
+	
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	outline: none;
+
+}
+.container{
+	position: relative;
+
+
+}
+.topitems{
+	width: 100%;
+	height: 400px;
+	display: inline-flex;
+	position: absolute;
+	
+}
+.logo a{
+	font-size:50px;
+	font-family: 'Lucida Calligraphy', cursive;
+    text-decoration: none;
+    color: #fb2274;
+    margin-left: 30px;
+}
+
+ul{
+	list-style-type: none;
+
+	position: relative;
+	left: 90%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-family: 'Script MT Bold';
+	color: #fff;
+
+
+	text-transform: uppercase;
+	padding: 5px 8px;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background: #eae456;
+}
+.backimage{
+	background-image: url(newimg.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height:600px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.backimage h1{
+	font-size: 55px;
+	text-align: center;
+	font-family: Script MT Bold;
+	text-transform: uppercase;
+	color: white;
+}
+.About{
+	/*padding:10px 50px 20px 50px;*/
+	text-align:center;
+}
+.title{
+	font-family: Chiller;
+	text-align: center;
+	text-transform: unset;
+	font-size: 50px;
+}
+.About p{
+	text-align: center;
+	font-family:Lucida Calligraphy;
+	font-size: 25px;
+	opacity: 0.8;
+}
+.About a{
+	text-decoration: none;
+	font-size: 35px;
+	color:#fb2274;
+
+
+	
+}
+
+
+/* our menu*/
+
+
+.ourmenu{
+	
+
+	padding:10px 15px 20px 15px;
+	text-align: center;
+}
+.title2{
+	font-family: 'Broadway',cursive;
+	
+	text-transform: unset;
+	font-size: 35px;
+
+}
+
+
+.menu{
+	display: grid;
+	grid-template-columns:auto auto auto auto;
+	grid-row-gap:20px;
+	grid-column-gap: 30px;
+	margin-right: 0px
+	
+}
+.menu .fooditems>img{
+width:300px;
+height:150px;
+}
+.fooditems h3{
+	text-align: left;
+	font-size:20px;
+	font-family:'Chunky';
+
+}
+.fooditems p{
+	text-align: left;
+	font-size:15px;
+	font-family: Candara;
+	opacity: 0.5;
+
+}
+
